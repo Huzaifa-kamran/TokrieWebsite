@@ -1,0 +1,22 @@
+@media  (min-width:796px) {
+
+.section{
+    width: 100%;
+} 
+    #snacks-sec{
+        margin-left:2% ;
+    }
+}
+
+
+@media (min-width:481)  {
+    .section{
+        width: 100%;
+    } 
+        #snacks-sec{
+            margin-left:2% ;
+        }
+        *{
+            font-family: 'Gill Sans';
+        }
+}

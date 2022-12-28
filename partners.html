@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b63f19595b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Tokrie</title>
+  </head>
+  <style>
+    #partner-line{
+      width: 49%;
+    }
+@media (min-width:320px) and (max-width:480px){
+  .partner-form-img {
+    width: 380px;
+  }
+  #partner-line{
+      width: 90%;
+    }
+    .part-inp{
+      height: 32px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+  .partner-form-img {
+    width: 500px;
+  }
+  #partner-line{
+      width: 90%;
+    }
+    .part-inp{
+      height: 32px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+  .partner-form-img {
+    width: 600px;
+  }
+  #partner-line{
+      width: 90%;
+    }
+    .part-inp{
+      height: 32px;
+    }
+}
+@media (min-width:1025px) {
+  .partner-form-img {
+    width: 546px;
+}
+  
+}
+  </style>
+  <body>
+    <div class="top">
+      <img src="images/tokrie-logo.png" alt="tokrie-logo" id="logo" />
+      <nav>
+        <div class="navigation">
+          <ul>
+            <li class="nav"><a class="nav-link" href="index.html">HOME</a></li>
+            <li class="nav">
+              <a class="nav-link" href="team.html">OUR TEAM </a>
+            </li>
+            <li class="nav"><a class="nav-link" href="faqs.html">FAQ's</a></li>
+            <li class="nav">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav">
+              <a class="nav-link" style="color: #95c122;" href="partners.html">PARTNERS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation">
+          <ul id="icons">
+            <li class="nav">
+              <a href="" class="icon"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+            </li>
+            <li class="nav">
+              <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="nav">
+              <a href="" class="icon"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li class="nav">
+              <a href="" class="icon"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <section>
+      <div class="partner-cont">
+        <div class="partner-row">
+         <div class="part-line"> 
+          <div class="partner-img" >
+            <img class="partner-form-img" src="images/partner-form-img.png" alt="form img" />
+          </div>
+        </div>
+
+        <div id="partner-line" class="part-line">
+          <div class="f-head" >
+            <h1>Retailer Registration Form</h1>
+            <p>Submit the form below to become a vendor on this store</p>
+            <form action="">
+              <div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">First Name*</p>
+                  <input class="part-inp" type="text" required />
+                </div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">Last Name*</p>
+                  <input class="part-inp" type="text" required />
+                </div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">Contact No.</p>
+                  <input class="part-inp" type="tel" />
+                </div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">Email*</p>
+                  <input class="part-inp" type="email" />
+                </div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">Store Type*</p>
+                  <select class="part-inp" name="store-type" id="store-type">
+                    <option value="select">Select Retailor Type</option>
+                    <option value="Health & Organic">Health & Organic</option>
+                    <option value="Meat & Fish">Meat & Fish</option>
+                    <option value="Flower Shops">Flower Shops</option>
+                    <option value="Pet Shop">Pet Shop</option>
+                    <option value="Bakery">Bakery</option>
+                    <option value="Qurbani With Tokrie">
+                      Qurbani With Tokrie
+                    </option>
+                    <option value="Seasonal">Seasonal</option>
+                    <option value="Bulk Buy">Bulk Buy</option>
+                    <option value="Fruits & Vegetables">
+                      Fruits & Vegetables
+                    </option>
+                    <option value="Super Markets">Super Markets</option>
+                  </select>
+                </div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">Shop Name*</p>
+                  <input class="part-inp" type="text" required />
+                  <br>
+                  <span>Important: This is the name that customer see when
+                    purchasing your products. Please choose carefully
+                  </span>
+                </div>
+         
+                <div class="parnter-form">
+                  <p class="part-inp-name">Location of Shop*</p>
+                  <select class="part-inp" name="location" id="location">
+                    <option value="Select City">Select City</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Hydrerabad">Hydrerabad</option>
+                  </select>
+                </div>
+                <div class="parnter-form">
+                  <p class="part-inp-name">Please describe something about your company and what you sell.*</p>
+                  <textarea class="part-inp" name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+                <div class="parnter-form">
+                  <button class="register">Register</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid text-center" style="background-color:rgb(91 90 90);">
+      <div class="row">
+        <div class="col col-lg-4 col-md-12 col-sm-12 col-12 mt-2">
+          <p style="color: white;">Copyright 2021 @ tokrie.com</p>
+        </div>
+        <div class="col col-lg-4 col-md-12 col-sm-12 col-12 mt-2">
+          <p style="color: white">Terms & Conditions | Privacy Policy</p>
+        </div>
+        <div class="col col-lg-4 col-md-12 col-sm-12 col-12 mt-2">
+          <a href="" class="bottom-icon p-2"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="" class="bottom-icon p-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="bottom-icon p-2"><i class="fa-brands fa-youtube"></i></a>
+          <a href="" class="bottom-icon p-2"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
